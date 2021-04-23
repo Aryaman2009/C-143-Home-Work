@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <h1 class="btn btn-danger" style="width: 100%;font-size: xxx-large;margin-top: 0;"><img src="images.jpg" style="border-radius:100%;height: 10%;width: 10%;"><b>AI Ping Pong Game</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-danger" style="border: 2px solid white;" onclick="game()">Redirect to game room</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-danger" data-toggle="modal" data-target="#instr" style="border: 2px solid white;">INSTRUCTION</button></h1>
+            <br><br>
+            <h4 id="i" style="color: white;"><b>Games</b></h4>
+            <div class="Underline"></div>
+             <div class="carousel slide" id="game" style="background-image: linear-gradient(tomato,skyblue,lightgreen);">
+          <div class="carousel-inner">
+              <div class="item active">
+              <center>
+                <br>
+                      <img src="images.jpg" class="img-responsive">
+                  </a>
+                  <div class="carousel-content">
+                      <p></p>
+                  </div>
+                  </center>
+              </div>
+                <div class="item">
+                    <center>
+                      <br>
+                      <img src="images (1).jpg" class="img-responsive">
+                  </a>
+                         <div class="carousel-content">
+                      <p></p>
+                  </div>
+  
+              </center>
+                      
+          </div>
+              <div class="item">
+                    <center>
+                      <br>
+                      <img src="download.jpg" class="img-responsive">
+                  </a>
+                         <div class="carousel-content">
+                      <p></p>
+                  </div>
+  
+              </center>
+                      
+          </div>
+          </div>
+          <a class="left carousel-control" href="#game" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+         <a class="right carousel-control" href="#game" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </div>
+          <br>
+          <br>
+            <label class="btn btn-danger" style="width:100%;bottom: 0;position: fixed;margin-left: -768px;font-size: x-large;" >Developed by :-: ARYAMAN DUTTA</label>
+
+            <br><br>
+            <div id="#instr" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="btn btn-info">INSTRUCTION</h3>
+                     <button class="close" data-dismiss="modal"> &times;</button>
+                    </div>
+                    <hr>
+                    <div class="modal-body">
+                      <label>
+                          MOVE YOUR MOUSE TO MOVE YOUR PADDEL 
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </center>
+        <script src="main1.js"></script>
+    </body>
+</html>
